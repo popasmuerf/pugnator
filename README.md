@@ -1,0 +1,1 @@
+url: https://www.baeldung.com/pagination-with-a-spring-rest-api-and-an-angularjs-table
