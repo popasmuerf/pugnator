@@ -21,6 +21,23 @@ import io.thirdplanet.pugnator.domain.User;
  * 
  * reference : https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.special-parameters
  * 
+ * 
+ * Queries we currently need for Users
+ * -----------------------------------------------
+ * 1.  findAll() pageable
+ * 2.  findAllById() pageable
+ * 3.  findByFirstName() pageable
+ * 4.  findByLastName() pageable
+ * 
+ * 
+ * Queries we currently need for Registrations
+ * ----------------------------------------------
+ * 1. findAllByUserByRegistration()
+ * 2. findAllRegistrationsByName()
+ * 3. findAllRegistrationsById
+ * 
+ * 
+ * 
  */
 public interface UserRepository extends JpaRepository<User,Long>{
     //pass
