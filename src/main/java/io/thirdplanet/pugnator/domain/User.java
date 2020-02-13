@@ -10,8 +10,10 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+
+//@Table(name = "users" ,schema="pugnator_rdb")
 @Entity
-@Table(name = "users")
+@Table(name = "users" ,schema="pugnator_rdb")
 public class User{
 
     @Id
